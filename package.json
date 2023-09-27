@@ -1,0 +1,27 @@
+{
+  "name": "bookmyshow-app",
+  "version": "1.0.0",
+  "description": " This our Almabetter backend capstone project-2 which is BookMyShow app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "mongoose",
+    "dotenv",
+    "bodyparser",
+    "routes"
+  ],
+  "author": "Somil vaishya (shahid saifullah, pooja yadav, koushik bej)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2"
+  }
+}
