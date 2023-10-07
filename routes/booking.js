@@ -4,7 +4,7 @@ const routes = express.Router();
 const bookingsModel = require('../model/Bookshow');
 
 // router for get request
-routes.get('/bookmovie', (req, res, next) => {
+routes.get('/showbooking', (req, res, next) => {
   // getting all the booking data from the db but sending only the last booking
   // sending an empty array as response if it is empty
   bookingsModel
@@ -21,7 +21,7 @@ routes.get('/bookmovie', (req, res, next) => {
 });
 
 // router for post request
-routes.post('/bookmovie', (req, res, next) => {
+routes.post('/showbooking', (req, res, next) => {
   // storing the user data entered in the frontend
   const data = req.body;
 
