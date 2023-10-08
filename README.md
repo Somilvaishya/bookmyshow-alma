@@ -17,6 +17,8 @@
 #GET  :- /api/showbooking
 
 ## Deploy on render.com
+## Backend project live on
+https://bookmyshow-alma.onrender.com/api/showbooking
 
 
 
