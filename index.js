@@ -7,7 +7,7 @@ const cors = require('cors');
 const PORT = process.env.PORT || 8080;
 
 // importing of the routes
-const booking = require('./Routes/booking');
+const booking = require('./routes/booking');
 
 // importing the database
 const connectDb = require('./database/database');
